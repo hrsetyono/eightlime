@@ -1,9 +1,9 @@
-Eightlime - Metro style Sublime Text 3 Theme
+Eightlime - Sublime 3 Theme
 =============================================
 
 Inspired by Metro style in Windows 8.
 
-**Note**: Currently there is only Dark theme. I will start working on Light theme if there is some demands.
+**Note**: Currently there is only Dark theme. I will start working on Light theme if there are demands.
 
 ![Eightlime Dark - HTML](http://cdn.setyono.net/eightlime/dark-html.jpg)
 
@@ -16,7 +16,7 @@ Installation
 
 Pending on Package Control. In the meanwhile, you can install it manually.
 
-1. Download all the files (click the "Download Zip" button).
+1. [Download here](http://cdn.setyono.net/eightlime/Theme - Eightlime.zip)
 
 2. In Sublime, go to *Preferences > Browse Packages*. It will open a directory in new window.
 
