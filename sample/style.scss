@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  background: blue;
+  color: white;
+
+  &:hover {
+    color: #ccc;
+  }
+}
+
+#blog {
+  border: 1px dotted #333;
+  box-shadow: 1px 1px 3px rgba(black, .3);
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+}
+
