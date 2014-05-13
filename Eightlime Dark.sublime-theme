@@ -338,7 +338,13 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [0, 0, 0, 35]
+        "viewport_color": [1, 123, 205, 50],
+        "viewport_opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "minimap_control",
+        "attributes": ["hover"],
+        "viewport_opacity": 1.0
     },
 
 //
@@ -622,7 +628,7 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [6, 5, 6, 6],
+        "content_margin": [5, 5, 5, 5],
         "min_size": [75, 0],
         "layer0.texture": "Theme - Eightlime/dark/btn-large.png",
         "layer0.opacity": 1.0,
@@ -651,8 +657,23 @@
         "layer0.texture": "Theme - Eightlime/dark/text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 5, 4, 3],
-        "content_margin": [3, 3]
+        "content_margin": [4, 2, 4, 1]
     },
+
+    // Text input dropdown
+    {
+        "class": "dropdown_button_control",
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Piatto/Piatto Dark/text-field-list.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [4, 4]
+    },
+    {
+        "class": "dropdown_button_control",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Piatto/Piatto Dark/text-field-list-hover.png"
+    },
+
 
 //
 // PANEL BACKGROUNDS
@@ -670,12 +691,12 @@
     {
         "class": "overlay_control",
         "layer0.texture": "Theme - Eightlime/dark/quick-panel-background.png",
-        "layer0.inner_margin": [12, 6, 12, 15],
+        "layer0.inner_margin": [10, 5, 5, 10],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Eightlime/dark/quick-panel-sections.png",
         "layer1.inner_margin": [12, 40, 12, 19],
         "layer1.opacity": 1.0,
-        "content_margin": [4, 8, 4, 17]
+        "content_margin": [9, 5, 9, 14]
     },
 
 //
@@ -684,7 +705,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": [0, 0],
+        "row_padding": [5, 2],
         "layer0.tint": [38, 38, 38],
         "layer0.opacity": 1.0
     },
@@ -733,7 +754,7 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "Theme - Eightlime/dark/quick-panel-row.png",
-        "layer0.inner_margin": [0, 0, 0, 0],
+        "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0
     },
     {
@@ -751,13 +772,13 @@
         "layer0.texture": "Theme - Eightlime/dark/popup-box.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [2, 2],
-        "content_margin": [2, 2],
+        "content_margin": [0, 0],
         "layer0.tint": [255, 255, 255],
         "layer0.opacity": 1.0
     },
     {
         "class": "auto_complete",
-        "row_padding": [4, 2]
+        "row_padding": [5, 2]
     },
     {
         "class": "auto_complete_label",
@@ -788,7 +809,7 @@
         "layer0.texture": "Theme - Eightlime/dark/btn-group-middle.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "content_margin": [4, 3, 3, 3]
+        "content_margin": [4, 3, 4, 3]
     },
     {
         "class": "icon_button_control",
