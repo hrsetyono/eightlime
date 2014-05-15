@@ -664,14 +664,14 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Piatto/Piatto Dark/text-field-list.png",
+        "layer0.texture": "Theme - Eightlime/dark/text-field-list.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 4]
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Piatto/Piatto Dark/text-field-list-hover.png"
+        "layer0.texture": "Theme - Eightlime/dark/text-field-list-hover.png"
     },
 
 
