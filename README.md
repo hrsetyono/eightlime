@@ -14,25 +14,21 @@ Inspired by Metro style in Windows 8.
 Installation
 -------------------
 
-Pending on Package Control. In the meanwhile, you can install it manually.
+**Download with Package Control**:
 
-1. [Download here](http://cdn.setyono.net/eightlime/Theme - Eightlime.zip)
+1. In Sublime 3, press CTRL + SHIFT + P
 
-2. In Sublime, go to *Preferences > Browse Packages*. It will open a directory in new window.
+2. Type in "install" and select the "Package Control: Install Package"
 
-3. Extract the zip in that directory.
+3. Wait for a few sec and new popup will appear, search "eightlime" and select it.
 
-### Changing Editor color
+**Setting up the Theme**:
 
->Preferences > Color Scheme > Theme - Eightlime > Eightlime Dark
+1. Change the Editor color by going to: `Preferences > Color Scheme > Theme - Eightlime > Eightlime Dark`
 
-It will change the color of editor.
+2. Change the GUI by going to `Preferences > Setting - User`
 
-### Changing GUI
-
->Preferences > Setting - User
-
-Add the following line:
+It will open the setting text file. Add the following line:
     
     "theme": "Eightlime Dark.sublime-theme"`
 
