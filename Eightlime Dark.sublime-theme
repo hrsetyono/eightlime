@@ -338,12 +338,20 @@
 
     {
         "class": "minimap_control",
+        "settings": ["always_show_minimap_viewport"],
+        "viewport_color": [1, 123, 205, 50],
+        "viewport_opacity": 1.0
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["!always_show_minimap_viewport"],
         "viewport_color": [1, 123, 205, 50],
         "viewport_opacity": { "target": 0.0, "speed": 10.0, "interpolation": "smoothstep" }
     },
     {
         "class": "minimap_control",
         "attributes": ["hover"],
+        "settings": ["!always_show_minimap_viewport"],
         "viewport_opacity": 1.0
     },
 
