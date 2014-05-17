@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Monokai</string>
+	<string>Eightlime Dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -528,6 +528,6 @@
 
 	</array>
 	<key>uuid</key>
-	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+	<string>6845EF3A-DCF7-11E3-B0F0-1A514932AC01</string>
 </dict>
 </plist>
