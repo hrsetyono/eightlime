@@ -404,8 +404,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.texture": "", // "Theme - Eightlime/dark/status-bar-background.png",
-        "layer0.tint": [20, 74, 147],
+        "layer0.texture": "Theme - Eightlime/dark/status-bar-background.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 4, 8, 4]
