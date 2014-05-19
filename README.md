@@ -1,7 +1,7 @@
-Eightlime - Sublime 3 Theme
+Eightlime - [Sublime 3](https://www.sublimetext.com/3) Theme
 =============================================
 
-Inspired by Metro style in Windows 8.
+Inspired by Modern UI style in Windows 8.
 
 **Note**: Currently there is only Dark theme. I will start working on Light theme if there are demands.
 
@@ -16,24 +16,27 @@ Installation
 
 **Download with Package Control**:
 
-1. In Sublime 3, press CTRL + SHIFT + P
+1. In [Sublime 3](https://www.sublimetext.com/3), press <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd>.
 
-2. Type in "install" and select the "Package Control: Install Package"
+2. Type in `Install` and select the `Package Control: Install Package`.
 
-3. Wait for a few sec and new popup will appear, search "eightlime" and select it.
+3. Wait a few seconds for a new popup to appear, then search for `Eightlime` and select it.
 
 **Setting up the Theme**:
 
-1. Change the Editor color by going to: `Preferences > Color Scheme > Theme - Eightlime > Eightlime Dark`
+1. Change the Editor color by going to: `Preferences > Color Scheme > Theme - Eightlime > Eightlime Dark`.
 
-2. Change the GUI by going to `Preferences > Setting - User`
+2. Change the GUI by going to `Preferences > Setting - User`.
 
 It will open the setting text file. Add the following line:
-    
-    "theme": "Eightlime Dark.sublime-theme"`
+
+```json
+    { "theme": "Eightlime Dark.sublime-theme" }
+```
 
 Overall, mine looks like this:
 
+```json
     {
       "color_scheme": "Packages/Theme - Eightlime/Eightlime Dark.tmTheme",
       "ignored_packages":
@@ -42,6 +45,7 @@ Overall, mine looks like this:
       ],
       "theme": "Eightlime Dark.sublime-theme",
     }
+```
 
 License and Credit
 -------------------
