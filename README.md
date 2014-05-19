@@ -31,7 +31,7 @@ Installation
 It will open the setting text file. Add the following line:
 
 ```json
-    "theme": "Eightlime Dark.sublime-theme"
+    { "theme": "Eightlime Dark.sublime-theme" }
 ```
 
 Overall, mine looks like this:
