@@ -5,7 +5,7 @@
   <title>Untitled</title>
 </head>
 <body>
-  <article>
+  <article class="hello">
     <h1>Hello World</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, fugiat, reprehenderit eligendi ea amet eaque quasi iure numquam accusantium nulla itaque dolore tenetur nisi nihil at.

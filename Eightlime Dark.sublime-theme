@@ -7,7 +7,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.texture": "Theme - Eightlime/dark/tabset-background.png",
+        "layer0.texture": "Theme - Eightlime/dark/tab.png",
         "layer0.inner_margin": [1, 6],
         "layer0.opacity": 1.0,
         "content_margin": [-2, 0, -3, 0],
@@ -17,6 +17,24 @@
         "tab_height": 30,
         "mouse_wheel_switch": false
     },
+        // GREEN
+        {
+            "class": "tabset_control",
+            "settings": ["theme_green"],
+            "layer0.texture": "Theme - Eightlime/dark/green/tab.png",
+        },
+        // RED
+        {
+            "class": "tabset_control",
+            "settings": ["theme_red"],
+            "layer0.texture": "Theme - Eightlime/dark/red/tab.png",
+        },
+        // YELLOW
+        {
+            "class": "tabset_control",
+            "settings": ["theme_yellow"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/tab.png",
+        },
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
@@ -26,23 +44,35 @@
     {
         "class": "tab_control",
         "content_margin": [12, 3, 12, 3],
+        "layer0.texture": "Theme - Eightlime/dark/tab.png",
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
-        "layer0.texture": "Theme - Eightlime/dark/tab-inactive.png",
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
+        // GREEN
+        {
+            "class": "tab_control",
+            "settings": ["theme_green"],
+            "layer0.texture": "Theme - Eightlime/dark/green/tab.png",
+        },
+        // RED
+        {
+            "class": "tab_control",
+            "settings": ["theme_red"],
+            "layer0.texture": "Theme - Eightlime/dark/red/tab.png",
+        },
+        // YELLOW
+        {
+            "class": "tab_control",
+            "settings": ["theme_yellow"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/tab.png",
+        },
     // Tab close state
     {
         "class": "tab_control",
         "settings": ["show_tab_close_buttons"],
         "content_margin": [12, 3, 6, 3]
-    },
-    // Tab hover state
-    {
-        "class": "tab_control",
-        "attributes": ["hover"],
-        "layer0.texture": "Theme - Eightlime/dark/tab-hover.png"
     },
     // Tab active state
     {
@@ -50,6 +80,27 @@
         "attributes": ["selected"],
         "layer0.texture": "Theme - Eightlime/dark/tab-active.png"
     },
+        // GREEN
+        {
+            "class": "tab_control",
+            "settings": ["theme_green"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/green/tab-active.png"
+        },
+        // RED
+        {
+            "class": "tab_control",
+            "settings": ["theme_red"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/red/tab-active.png"
+        },
+        // YELLOW
+        {
+            "class": "tab_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/tab-active.png"
+        },
     // Tab dirty state (close button hidden)
     {
         "class": "tab_control",
@@ -79,7 +130,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Eightlime/dark/tab-close.png",
-        "layer0.opacity": 0.6
+        "layer0.opacity": 0.85
     },
     {
         "class": "tab_close_button",
@@ -137,6 +188,27 @@
         "attributes": ["hover"],
         "layer0.texture": "Theme - Eightlime/dark/tab-close-hover.png"
     },
+        // GREEN
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons", "theme_green"],
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Eightlime/dark/green/tab-close-hover.png"
+        },
+        // RED
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons", "theme_red"],
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Eightlime/dark/red/tab-close-hover.png"
+        },
+        // YELLOW
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons", "theme_yellow"],
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/tab-close-hover.png"
+        },
     // Tab close button pressed
     {
         "class": "tab_close_button",
@@ -144,6 +216,27 @@
         "attributes": ["pressed"],
         "layer0.texture": "Theme - Eightlime/dark/tab-close-pressed.png"
     },
+        // GREEN
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons", "theme_green"],
+            "attributes": ["pressed"],
+            "layer0.texture": "Theme - Eightlime/dark/green/tab-close-pressed.png"
+        },
+        // RED
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons", "theme_red"],
+            "attributes": ["pressed"],
+            "layer0.texture": "Theme - Eightlime/dark/red/tab-close-pressed.png"
+        },
+        // YELLOW
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons", "theme_yellow"],
+            "attributes": ["pressed"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/tab-close-pressed.png"
+        },
 
 //
 // TAB LABELS
@@ -409,6 +502,24 @@
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 4, 8, 4]
     },
+        // GREEN
+        {
+            "class": "status_bar",
+            "settings": ["theme_green"],
+            "layer0.texture": "Theme - Eightlime/dark/green/status-bar-background.png",
+        },
+        // RED
+        {
+            "class": "status_bar",
+            "settings": ["theme_red"],
+            "layer0.texture": "Theme - Eightlime/dark/red/status-bar-background.png",
+        },
+        // YELLOW
+        {
+            "class": "status_bar",
+            "settings": ["theme_yellow"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/status-bar-background.png",
+        },
     // Status bar button
     {
         "class": "status_button",
@@ -571,21 +682,27 @@
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Eightlime/dark/folder-closed-hover.png"
     },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Eightlime/dark/folder-closed-selected.png"
-    },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "layer0.texture": "Theme - Eightlime/dark/folder-closed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Eightlime/dark/folder-closed-hover.png"
-    },
+        // GREEN
+        {
+            "class": "disclosure_button_control",
+            "settings": ["theme_green"],
+            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+            "layer0.texture": "Theme - Eightlime/dark/green/folder-closed-hover.png"
+        },
+        // RED
+        {
+            "class": "disclosure_button_control",
+            "settings": ["theme_red"],
+            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+            "layer0.texture": "Theme - Eightlime/dark/red/folder-closed-hover.png"
+        },
+        // YELLOW
+        {
+            "class": "disclosure_button_control",
+            "settings": ["theme_yellow"],
+            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/folder-closed-hover.png"
+        },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
@@ -603,24 +720,30 @@
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Theme - Eightlime/dark/folder-open-hover.png"
     },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.texture": "Theme - Eightlime/dark/folder-open-selected.png"
-    },
-    // Sidebar folder open
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - Eightlime/dark/folder-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Eightlime/dark/folder-open-hover.png"
-    },
+        // GREEN
+        {
+            "class": "disclosure_button_control",
+            "settings": ["theme_green"],
+            "attributes": ["expanded"],
+            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+            "layer0.texture": "Theme - Eightlime/dark/green/folder-open-hover.png"
+        },
+        // RED
+        {
+            "class": "disclosure_button_control",
+            "settings": ["theme_red"],
+            "attributes": ["expanded"],
+            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+            "layer0.texture": "Theme - Eightlime/dark/red/folder-open-hover.png"
+        },
+        // YELLOW
+        {
+            "class": "disclosure_button_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["expanded"],
+            "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/folder-open-hover.png"
+        },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
@@ -654,6 +777,28 @@
         "attributes": ["pressed"],
         "layer0.texture": "Theme - Eightlime/dark/btn-large-on.png"
     },
+        // GREEN
+        {
+            "class": "button_control",
+            "settings": ["theme_green"],
+            "attributes": ["pressed"],
+            "layer0.texture": "Theme - Eightlime/dark/green/btn-large-on.png"
+        },
+        // RED
+        {
+            "class": "button_control",
+            "settings": ["theme_red"],
+            "attributes": ["pressed"],
+            "layer0.texture": "Theme - Eightlime/dark/red/btn-large-on.png"
+        },
+        // YELLOW
+        {
+            "class": "button_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["pressed"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/btn-large-on.png"
+        },
+
 
 //
 // TEXT INPUT FIELD
@@ -681,6 +826,27 @@
         "attributes": ["hover"],
         "layer0.texture": "Theme - Eightlime/dark/text-field-list-hover.png"
     },
+        // GREEN
+        {
+            "class": "dropdown_button_control",
+            "settings": ["theme_green"],
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Eightlime/dark/green/text-field-list-hover.png"
+        },
+        // RED
+        {
+            "class": "dropdown_button_control",
+            "settings": ["theme_red"],
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Eightlime/dark/red/text-field-list-hover.png"
+        },
+        // YELLOW
+        {
+            "class": "dropdown_button_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["hover"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/text-field-list-hover.png"
+        },
 
 
 //
@@ -695,6 +861,24 @@
         "layer0.opacity": 1.0,
         "content_margin": [2, 1, 2, 1]
     },
+        // GREEN
+        {
+            "class": "panel_control",
+            "settings": ["theme_green"],
+            "layer0.texture": "Theme - Eightlime/dark/green/panel-background.png",
+        },
+        // RED
+        {
+            "class": "panel_control",
+            "settings": ["theme_red"],
+            "layer0.texture": "Theme - Eightlime/dark/red/panel-background.png",
+        },
+        // YELLOW
+        {
+            "class": "panel_control",
+            "settings": ["theme_yellow"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/panel-background.png",
+        },
     // Quick panel background
     {
         "class": "overlay_control",
@@ -728,6 +912,27 @@
         "attributes": ["selected"],
         "layer0.texture": "Theme - Eightlime/dark/quick-panel-row-selected.png"
     },
+        // GREEN
+        {
+            "class": "quick_panel_row",
+            "settings": ["theme_green"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/green/quick-panel-row-selected.png"
+        },
+        // RED
+        {
+            "class": "quick_panel_row",
+            "settings": ["theme_red"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/red/quick-panel-row-selected.png"
+        },
+        // YELLOW
+        {
+            "class": "quick_panel_row",
+            "settings": ["theme_yellow"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/quick-panel-row-selected.png"
+        },
     {
         "class": "quick_panel_label",
         "fg": [180, 180, 180, 255],
@@ -770,6 +975,27 @@
         "attributes": ["selected"],
         "layer0.texture": "Theme - Eightlime/dark/quick-panel-row-selected.png"
     },
+        // GREEN
+        {
+            "class": "mini_quick_panel_row",
+            "settings": ["theme_green"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/green/quick-panel-row-selected.png"
+        },
+        // RED
+        {
+            "class": "mini_quick_panel_row",
+            "settings": ["theme_red"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/red/quick-panel-row-selected.png"
+        },
+        // YELLOW
+        {
+            "class": "mini_quick_panel_row",
+            "settings": ["theme_yellow"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/quick-panel-row-selected.png"
+        },
 
 //
 // CODE COMPLETION DROPDOWN
@@ -814,7 +1040,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer0.texture": "Theme - Eightlime/dark/btn-group-middle.png",
+        "layer0.texture": "Theme - Eightlime/dark/btn.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
         "content_margin": [4, 3, 4, 3]
@@ -822,44 +1048,128 @@
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Eightlime/dark/btn-group-middle-on.png"
+        "layer0.texture": "Theme - Eightlime/dark/btn-on.png"
     },
+        // GREEN
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_green"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/green/btn-on.png"
+        },
+        // RED
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_red"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/red/btn-on.png"
+        },
+        // YELLOW
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["selected"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/btn-on.png"
+        },
     // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Eightlime/dark/btn-group-left.png",
+        "layer0.texture": "Theme - Eightlime/dark/btn.png",
         "content_margin": [4, 3, 3, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Eightlime/dark/btn-group-left-on.png"
+        "layer0.texture": "Theme - Eightlime/dark/btn-on.png"
     },
+        // GREEN
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_green"],
+            "attributes": ["left", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/green/btn-on.png"
+        },
+        // RED
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_red"],
+            "attributes": ["left", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/red/btn-on.png"
+        },
+        // YELLOW
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["left", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/btn-on.png"
+        },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Eightlime/dark/btn-group-right.png",
+        "layer0.texture": "Theme - Eightlime/dark/btn.png",
         "content_margin": [3, 3, 4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Eightlime/dark/btn-group-right-on.png"
+        "layer0.texture": "Theme - Eightlime/dark/btn-on.png"
     },
+        // GREEN
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_green"],
+            "attributes": ["right", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/green/btn-on.png"
+        },
+        // RED
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_red"],
+            "attributes": ["right", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/red/btn-on.png"
+        },
+        // YELLOW
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["right", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/btn-on.png"
+        },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
-        "layer0.texture": "Theme - Eightlime/dark/btn-small.png",
+        "layer0.texture": "Theme - Eightlime/dark/btn.png",
         "content_margin": [4, 3]
     },
     {
         "class": "icon_button_control",
         "attributes": ["left", "right", "selected"],
-        "layer0.texture": "Theme - Eightlime/dark/btn-small-on.png"
+        "layer0.texture": "Theme - Eightlime/dark/btn-on.png"
     },
+        // GREEN
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_green"],
+            "attributes": ["left", "right", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/green/btn-on.png"
+        },
+        // RED
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_red"],
+            "attributes": ["left", "right", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/red/btn-on.png"
+        },
+        // YELLOW
+        {
+            "class": "icon_button_control",
+            "settings": ["theme_yellow"],
+            "attributes": ["left", "right", "selected"],
+            "layer0.texture": "Theme - Eightlime/dark/yellow/btn-on.png"
+        },
 
 //
 // BOTTOM PANEL ICONS - GROUP 1

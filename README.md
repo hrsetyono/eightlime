@@ -1,7 +1,7 @@
 Eightlime - Sublime 3 Theme
 =============================================
 
-Inspired by Metro style in Windows 8.
+Inspired by Modern (Metro) style in Windows 8.
 
 **Note**: Currently there is only Dark theme. I will start working on Light theme if there are demands.
 
@@ -30,7 +30,7 @@ Installation
 
 It will open the setting text file. Add the following line:
     
-    "theme": "Eightlime Dark.sublime-theme"`
+    "theme": "Eightlime Dark.sublime-theme"
 
 Overall, mine looks like this:
 
@@ -42,6 +42,19 @@ Overall, mine looks like this:
       ],
       "theme": "Eightlime Dark.sublime-theme",
     }
+
+Alternate Color
+-------------------
+
+![Eightlime Dark - Color Choice](http://cdn.setyono.net/eightlime/color-dark-choice.jpg)
+
+Pick one color and add this in your setting file: (Default is blue)
+
+    "theme_green": true
+
+    "theme_red": true
+
+    "theme_yellow": true
 
 License and Credit
 -------------------
@@ -55,3 +68,11 @@ Eightlime is MIT Licensed and based on:
 - [Monokai Extended](https://github.com/jonschlinkert/sublime-monokai-extended)
 
 - [Railscast](http://railscasts.com/)
+
+Thanks for contributors:
+
+- [buildersbrewery](https://github.com/buildersbrewery)
+
+- [Cesar Martin](https://github.com/LOQUILLO)
+
+- [Jev Zelenkov](https://github.com/jzelenkov)
