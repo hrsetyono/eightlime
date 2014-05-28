@@ -604,7 +604,6 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "settings": true,
         "color": [247, 247, 247]
     },
     // Sidebar entry selected
@@ -947,18 +946,37 @@
         "fg": [120, 120, 120, 255],
         "match_fg": [255, 255, 255, 255],
         "bg": [245, 245, 245, 255],
-        "selected_fg": [200, 200, 200, 255],
+        "selected_fg": [230, 230, 230, 255],
         "selected_match_fg": [255, 255, 255, 255],
         "selected_bg": [225, 225, 225, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [253, 155, 0, 255],
+        "fg": [1, 123, 205, 255],
         "bg": [245, 245, 245, 255],
-        "selected_fg": [253, 243, 0, 255],
+        "selected_fg": [255, 255, 255, 255],
         "selected_bg": [225, 225, 225, 255],
         "font.bold": true
     },
+
+        // GREEN
+        {
+            "class": "quick_panel_score_label",
+            "settings": ["theme_green"],
+            "fg": [35, 123, 74, 255],
+        },
+        // RED
+        {
+            "class": "quick_panel_score_label",
+            "settings": ["theme_red"],
+            "fg": [210, 71, 38, 255],
+        },
+        // YELLOW
+        {
+            "class": "quick_panel_score_label",
+            "settings": ["theme_yellow"],
+            "fg": [228, 158, 2, 255],
+        },
 
 //
 // MINI QUICK PANEL
