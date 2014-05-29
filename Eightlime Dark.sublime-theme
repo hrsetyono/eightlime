@@ -21,19 +21,19 @@
         {
             "class": "tabset_control",
             "settings": ["theme_green"],
-            "layer0.texture": "Theme - Eightlime/dark/green/tab.png",
+            "layer0.texture": "Theme - Eightlime/dark/green/tab.png"
         },
         // RED
         {
             "class": "tabset_control",
             "settings": ["theme_red"],
-            "layer0.texture": "Theme - Eightlime/dark/red/tab.png",
+            "layer0.texture": "Theme - Eightlime/dark/red/tab.png"
         },
         // YELLOW
         {
             "class": "tabset_control",
             "settings": ["theme_yellow"],
-            "layer0.texture": "Theme - Eightlime/dark/yellow/tab.png",
+            "layer0.texture": "Theme - Eightlime/dark/yellow/tab.png"
         },
     {
         "class": "tabset_control",
@@ -54,19 +54,19 @@
         {
             "class": "tab_control",
             "settings": ["theme_green"],
-            "layer0.texture": "Theme - Eightlime/dark/green/tab.png",
+            "layer0.texture": "Theme - Eightlime/dark/green/tab.png"
         },
         // RED
         {
             "class": "tab_control",
             "settings": ["theme_red"],
-            "layer0.texture": "Theme - Eightlime/dark/red/tab.png",
+            "layer0.texture": "Theme - Eightlime/dark/red/tab.png"
         },
         // YELLOW
         {
             "class": "tab_control",
             "settings": ["theme_yellow"],
-            "layer0.texture": "Theme - Eightlime/dark/yellow/tab.png",
+            "layer0.texture": "Theme - Eightlime/dark/yellow/tab.png"
         },
     // Tab close state
     {
@@ -506,19 +506,19 @@
         {
             "class": "status_bar",
             "settings": ["theme_green"],
-            "layer0.texture": "Theme - Eightlime/dark/green/status-bar-background.png",
+            "layer0.texture": "Theme - Eightlime/dark/green/status-bar-background.png"
         },
         // RED
         {
             "class": "status_bar",
             "settings": ["theme_red"],
-            "layer0.texture": "Theme - Eightlime/dark/red/status-bar-background.png",
+            "layer0.texture": "Theme - Eightlime/dark/red/status-bar-background.png"
         },
         // YELLOW
         {
             "class": "status_bar",
             "settings": ["theme_yellow"],
-            "layer0.texture": "Theme - Eightlime/dark/yellow/status-bar-background.png",
+            "layer0.texture": "Theme - Eightlime/dark/yellow/status-bar-background.png"
         },
     // Status bar button
     {
@@ -864,19 +864,19 @@
         {
             "class": "panel_control",
             "settings": ["theme_green"],
-            "layer0.texture": "Theme - Eightlime/dark/green/panel-background.png",
+            "layer0.texture": "Theme - Eightlime/dark/green/panel-background.png"
         },
         // RED
         {
             "class": "panel_control",
             "settings": ["theme_red"],
-            "layer0.texture": "Theme - Eightlime/dark/red/panel-background.png",
+            "layer0.texture": "Theme - Eightlime/dark/red/panel-background.png"
         },
         // YELLOW
         {
             "class": "panel_control",
             "settings": ["theme_yellow"],
-            "layer0.texture": "Theme - Eightlime/dark/yellow/panel-background.png",
+            "layer0.texture": "Theme - Eightlime/dark/yellow/panel-background.png"
         },
     // Quick panel background
     {
@@ -963,19 +963,19 @@
         {
             "class": "quick_panel_score_label",
             "settings": ["theme_green"],
-            "fg": [35, 123, 74, 255],
+            "fg": [35, 123, 74, 255]
         },
         // RED
         {
             "class": "quick_panel_score_label",
             "settings": ["theme_red"],
-            "fg": [210, 71, 38, 255],
+            "fg": [210, 71, 38, 255]
         },
         // YELLOW
         {
             "class": "quick_panel_score_label",
             "settings": ["theme_yellow"],
-            "fg": [228, 158, 2, 255],
+            "fg": [228, 158, 2, 255]
         },
 
 //
