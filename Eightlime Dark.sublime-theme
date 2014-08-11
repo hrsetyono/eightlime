@@ -597,7 +597,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "settings": true,
+        "settings": [true],
         "color": [247, 247, 247],
         "font.bold": true
     },
