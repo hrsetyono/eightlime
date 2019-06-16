@@ -5,11 +5,11 @@ Inspired by Modern (Metro) style in Windows 8.
 
 **Note**: Currently there is only Dark theme. I will start working on Light theme if there are demands.
 
-![Eightlime Dark - HTML](http://cdn.setyono.net/eightlime/dark-html.jpg)
+![Eightlime Dark - HTML](https://raw.github.com/hrsetyono/cdn/master/eightlime/dark-html.jpg)
 
-![Eightlime Dark - CSS](http://cdn.setyono.net/eightlime/dark-css.jpg)
+![Eightlime Dark - CSS](https://raw.github.com/hrsetyono/cdn/master/eightlime/dark-css.jpg)
 
-![Eightlime Dark - Markdown](http://cdn.setyono.net/eightlime/dark-markdown.jpg)
+![Eightlime Dark - Markdown](https://raw.github.com/hrsetyono/cdn/master/eightlime/dark-markdown.jpg)
 
 Installation
 -------------------
@@ -46,7 +46,7 @@ Overall, mine looks like this:
 Alternate Color
 -------------------
 
-![Eightlime Dark - Color Choice](http://cdn.setyono.net/eightlime/color-dark-choice.jpg)
+![Eightlime Dark - Color Choice](https://raw.github.com/hrsetyono/cdn/master/eightlime/color-dark-choice.jpg)
 
 Pick one color and add this in your setting file: (Default is blue)
 
